@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header li{
+    display: flex;
+    background-color: rgba(221,221,221,255);
+    margin: 3px;
+    width: 500px;
+    padding: 4px;
+    justify-content: space-between;
+    
+
+
+}
+
+
+a{
+    margin: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    padding: 2px
+}
+
+p{
+    margin: 10px;
+    color: black;
+    text-align: center;
+    width: 50px;
+    padding: 2px
+
+}

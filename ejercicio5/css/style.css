@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+
+}
+
+
+main{
+    display: flex;
+;
+
+}
+article{
+    background-color: #aaaaaa;
+    height: 80vh;
+}
+aside{
+    background-color: rgba(204,204,204,255);
+    height: 80vh;
+    width: 50vh;
+}
+
+nav{
+    order: -1;
+    background-color: rgba(187,187,187,255);
+    height: 80vh;
+    width: 50vh;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #94d9e9;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    border: none;
+    height: 8%;
+    width: 40%;
+    margin: 7px;
+    border-radius: 5px;
+
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 270px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px hsla(0, 0%, 0%, 0);
+    
+
+
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    background-color: #fa8071;
+    justify-content: center;
+}
+
+
+.marco{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.texto{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    height: 24%;
+    flex-direction: column;
+    margin: 20px;
+}
