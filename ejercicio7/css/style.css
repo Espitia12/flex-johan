@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header h1{
+    margin: 0 0 10px 0;
+}
+
+body header{
+    background: rgb(250, 128, 113);
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+menu{
+    background-color: rgb(24, 189, 150);
+    height: 5vh;
+    display: flex;  
+    align-items: center;
+}
+
+
+
+menu a{
+    text-decoration: none;
+    color: white;
+}
+
+menu div{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  
+}
+
+
+
+
+div a{
+    padding: 0 10px;  
+}
+
+main{
+    display: flex;
+}
+
+
+
+
+main .lado{
+    width: 30%;
+    background-color: rgb(221, 221, 221);
+}
+
+
+
+main .seccion{
+    width: 70%;
+}
+.primera{
+    width: 400px;
+    height: 400px;
+}
+.primera-columna{
+    width: 668px;
+    height: 200px;
+    padding: 0 0 0 10px;
+}
+.final{
+    height: 200px;
+    width: 400px;
+}
+.final-columna{
+    width: 668px;
+    height: 200px;
+    padding: 0 0 0 10px;
+}
+.lado h2 {
+    padding: 20px 0px 26px 15px;
+}
+.lado p {
+    padding: 0px 0px 25px 0px;
+}
+.seccion h2 {
+    padding: 20px 0px 17px 10px;
+}
+.seccion p {
+    padding: 10px 0 10px 10px;
+}
+.parafo1{
+    border-bottom: 3px solid black;
+}
+footer{
+    background-color: rgb(221, 221, 221);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
